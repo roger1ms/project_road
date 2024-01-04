@@ -184,7 +184,7 @@ for ix in range(90):
                             X1[start_y][start_x] +=0.00005
                         viv[start_y][start_x] = 100
                         hod+=1
-                        #print('fasafafaf', cleanliness, coordinates, [people_x_position, people_y_position], sum_of_movement, start_x, start_y, end_x, end_y)
+                        #print(cleanliness, coordinates, [people_x_position, people_y_position], sum_of_movement, start_x, start_y, end_x, end_y)
                         count_of_move+=1
                 print('PROCESS:', hod, ix, iy, dx, dy)
 
